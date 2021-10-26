@@ -1,4 +1,5 @@
- - [Einführung](einfuehrung)
+- [Autor und Version](autoren)
+- [Einführung](einfuehrung)
  - [Hardware und Software](hardsoft)
  - [Installationsanleitung](installation)
  - [Qualitätskontrolle](qualitaet)
