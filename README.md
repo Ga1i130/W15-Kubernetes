@@ -33,6 +33,11 @@ Version: V.1.0
 
 ## 7. Quellen
 
+1. https://microk8s.io
+2. https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#5-master-node-and-leaf-nodes
+3. https://kubernetes.io
+4. 
+
 ## 8. OpenSource Lizenz
 ****
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">W15-Kubernetes</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Ga1i130/W15-Kubernetes/" property="cc:attributionName" rel="cc:attributionURL">Ga1i130</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>.
