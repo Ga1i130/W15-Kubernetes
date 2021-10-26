@@ -6,8 +6,8 @@ Version: V.1.0
 
 ## 2. Einfuehrung 
    - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster-System aufbauen.
-   - Für dieses Projekt habe ich ca. 12 lektionen zur verfügung
-   - Stolpersteine
+   - Für dieses Projekt habe ich ca. 12 Lektionen zur Verfügung. In diesen Lektionen, muss ich das System aufsetzten, das gearbeitete Dokumentieren und zum schluss noch die Fehler finden welche ich bei der Installation gemacht habe. 
+   - Für mich 
 
 ## 3. Benoetigte Hard- und Softw-re
    - Hardware (Materialliste, Funktionalitaet)
