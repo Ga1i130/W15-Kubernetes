@@ -7,12 +7,19 @@ Version: V.1.0
 ## 2. Einfuehrung 
    - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster-System aufbauen.
    - Für dieses Projekt habe ich ca. 12 Lektionen zur Verfügung. In diesen Lektionen, muss ich das System aufsetzten, das gearbeitete Dokumentieren und zum schluss noch die Fehler finden welche ich bei der Installation gemacht habe. 
-   - Für mich 
+   - Für mich könnte ich Stolpersteine bei Konfiguration der Raspberrypis haben, denn da wir einen teil in der Schule machen können und den Rest Zuhause muss ich die Konfiguration entweder an einem Morgen durcharbeiten oder das System fest an einem Ort installieren.
 
-## 3. Benoetigte Hard- und Softw-re
-   - Hardware (Materialliste, Funktionalitaet)
-   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
-	hängigkeiten, Funktionalitaet)
+## 3. Benoetigte Hard- und Software
+  - Hardware
+   	- Raspberry Pi 4 
+   	- Raspberry Pi 3B 
+   	- merere MicroSD Karten mit varierenden Grössen (2x 2GB; 1x 16GB; 2x 32GB; 1x 64GB). Diese Speicher Karten kann ich je nach nutzen und Zweck auswählen. Brauche ich grossen Speicherplatz? Brauche ich eine Schnellere Karte um die Leistung des Pi's auszunutzen? Wie gross ist die Gefahr eines Bottlenek bei einer langsameren Karte?
+![Ohne Titel](https://user-images.githubusercontent.com/63262820/138827765-5e85efd1-cb2e-4e70-8007-9993d56b79f7.png)
+
+  - Die Hardware wird in Zwei Kategorienen eingeteilt den sogenannten nodes.
+	- Masternode: Die Masternode ist das Rückgrad des Systemes. Auf dieser node wird ein Ubuntu LST Server image laufen um die vorüge eines Server image ohne GUI zu nutzen. 
+	- Leafnode: Diese Nodes werden an die Masternode angehängt und werden mit einem Ubuntu Desktop image bestückt.
+  - Diese images werden entweder mit dem Balena Etcher oder dem Raspberri Pi imager auf die Micro SD Karten geladen.
 
 ## 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
    - Anweisungen verstaendlich und nachvollziehbar
