@@ -56,7 +56,8 @@ Version: V.1.0
 1. https://microk8s.io
 2. https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#5-master-node-and-leaf-nodes
 3. https://kubernetes.io
-4. 
+
+> Alle Bilder welche nicht deklariert wurden sind eigen Produkte(Screenshots, Fotographien, ...)
 
 <a name="anker-zur-lizenz"></a>
 ## 8. OpenSource Lizenz
