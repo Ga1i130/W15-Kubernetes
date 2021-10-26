@@ -1,15 +1,15 @@
 # W15-Kubernetes
-With this Project at TBZ, I try to connect some RaspPi to a Kubernetes Cluster
+Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben.
 ## 1. Autoren, Versionierung des Dokumentes
 Autor: Janis Müller
 Version: V.1.0
 
 ## 2. Einfuehrung 
-   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster system aufbauen.
+   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster-System aufbauen.
    - Für dieses Projekt habe ich ca. 12 lektionen zur verfügung
    - Stolpersteine
 
-## 3. Benoetigte Hard- und Software
+## 3. Benoetigte Hard- und Softw-re
    - Hardware (Materialliste, Funktionalitaet)
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
 	hängigkeiten, Funktionalitaet)
