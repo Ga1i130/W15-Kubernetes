@@ -13,7 +13,7 @@ Version: V.1.0
   - Hardware
    	- Raspberry Pi 4 
    	- Raspberry Pi 3B 
-   	- merere MicroSD Karten mit varierenden Grössen (2x 2GB; 1x 16GB; 2x 32GB; 1x 64GB). Diese Speicher Karten kann ich je nach nutzen und Zweck auswählen. Brauche ich grossen Speicherplatz? Brauche ich eine Schnellere Karte um die Leistung des Pi's auszunutzen? Wie gross ist die Gefahr eines Bottlenek bei einer langsameren Karte?
+   	- merere MicroSD Karten mit varierenden Grössen (2x 2GB; 1x 16GB; 2x 32GB; 1x 64GB). Diese Speicher Karten kann ich je nach nutzen und Zweck auswählen. Brauche ich viel Speicherplatz? Brauche ich eine Schnellere Karte um die Leistung des Pi's auszunutzen? Wie gross ist die Gefahr eines Bottlenek bei einer langsameren Karte?
 ![Ohne Titel](https://user-images.githubusercontent.com/63262820/138827765-5e85efd1-cb2e-4e70-8007-9993d56b79f7.png)
 
   - Die Hardware wird in Zwei Kategorienen eingeteilt den sogenannten nodes.
