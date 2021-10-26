@@ -1,4 +1,10 @@
- [2. Einführung](einfuehrung)
+ - [Einführung](einfuehrung)
+ - [Hardware und Software](hardsoft)
+ - [Installationsanleitung](installation)
+ - [Qualitätskontrolle](qualitaet)
+ - [Error-Handling](error)
+ - [Quellen](quellen)
+ - [Lizenz](lizenz)
 
 # W15-Kubernetes
 Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben.
