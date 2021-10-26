@@ -2,11 +2,11 @@
 With this Project at TBZ, I try to connect some RaspPi to a Kubernetes Cluster
 ## 1. Autoren, Versionierung des Dokumentes
 Autor: Janis Müller
-Version: 
+Version: V.1.0
 
 ## 2. Einfuehrung 
-   - Beschreibung: Welche Funktionen wird der Service erfuellen
-   - Vorgesehener Zeitaufwand für die Realisierung
+   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster system aufbauen.
+   - Für dieses Projekt habe ich ca. 12 lektionen zur verfügung
    - Stolpersteine
 
 ## 3. Benoetigte Hard- und Software
