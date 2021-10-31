@@ -35,7 +35,7 @@ Version: V.1.0
 	- Leafnode: Diese Nodes werden an die Masternode angehängt und werden mit einem Ubuntu Desktop image bestückt.
   - Diese images werden entweder mit dem Balena Etcher oder dem Raspberri Pi imager auf die Micro SD Karten geladen.
 
-> "!Wichtig! Die OS müssen 64 Bit architektur sein sonst funktioniert microk8s nicht. Denn es wurde für 64-Bit geschrieben."
+> "!Wichtig! Die OS müssen 64 Bit Architektur sein sonst funktioniert microk8s nicht. Denn es wurde für 64-Bit geschrieben."
 
 <a name="anker-zur-installation"></a>
 ## 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
@@ -43,6 +43,10 @@ Version: V.1.0
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...
 
+1. Zu begin der installation, sollt man die apt Datenbanken der RPI's aktualisisieren. Das braucht einen guten Moment Zeit.
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/63262820/139582013-2a50ab1e-a6ba-4d40-a1f1-85bb7d22ff44.png">
+2. 
+ 
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
