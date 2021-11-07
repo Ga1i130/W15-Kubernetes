@@ -27,7 +27,7 @@ Version: V.1.0
   - Hardware
    	- Raspberry Pi 4 
    	- Raspberry Pi 3B 
-   	- merere MicroSD Karten mit varierenden Grössen (2x 2GB; 1x 16GB; 2x 32GB; 1x 64GB). Diese Speicher Karten kann ich je nach nutzen und Zweck auswählen. Brauche ich viel Speicherplatz? Brauche ich eine Schnellere Karte um die Leistung des Pi's auszunutzen? Wie gross ist die Gefahr eines Bottlenek bei einer langsameren Karte?
+   	- merere MicroSD Karten mit varierenden Grössen (2x 2GB; 1x 16GB; 2x 32GB; 1x 64GB). Diese Speicher Karten kann ich je nach nutzen und Zweck auswählen. Brauche ich viel Speicherplatz? Brauche ich eine Schnellere Karte um die Leistung des Pi's auszunutzen? Wie gross ist die Gefahr eines Bottleneck bei einer langsameren Karte?
 ![Ohne Titel](https://user-images.githubusercontent.com/63262820/138827765-5e85efd1-cb2e-4e70-8007-9993d56b79f7.png)
 
   - Die Hardware wird in Zwei Kategorienen eingeteilt den sogenannten nodes.
@@ -37,6 +37,8 @@ Version: V.1.0
 
 > "!Wichtig! Die OS müssen 64 Bit Architektur sein sonst funktioniert microk8s nicht. Denn es wurde für 64-Bit geschrieben."
 
+![IMG_5963](https://user-images.githubusercontent.com/63262820/140657271-eecc7525-d8aa-4d7f-af51-0df5cc6f019d.JPG)
+
 <a name="anker-zur-installation"></a>
 ## 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
    - Anweisungen verstaendlich und nachvollziehbar
@@ -45,8 +47,8 @@ Version: V.1.0
 
 1. Zu begin der installation, sollt man die apt Datenbanken der RPI's aktualisisieren. Das braucht einen guten Moment Zeit.
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/63262820/139582013-2a50ab1e-a6ba-4d40-a1f1-85bb7d22ff44.png">
-2. 
- 
+
+2. Anschliessend  
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
@@ -60,6 +62,7 @@ Version: V.1.0
 1. https://microk8s.io
 2. https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#5-master-node-and-leaf-nodes
 3. https://kubernetes.io
+4. https://microk8s.io/docs?_ga=2.106751627.928535389.1636302169-1211845305.1635230076
 
 > Alle Bilder welche nicht deklariert wurden sind eigen Produkte(Screenshots, Fotographien, ...)
 
