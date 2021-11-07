@@ -48,7 +48,10 @@ Version: V.1.0
 1. Zu begin der installation, sollt man die apt Datenbanken der RPI's aktualisisieren. Das braucht einen guten Moment Zeit.
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/63262820/139582013-2a50ab1e-a6ba-4d40-a1f1-85bb7d22ff44.png">
 
-2. Anschliessend  
+2. Anschliessend beginnt der Installations Prozess des Kubernetes Cluster bzw. von microk8s(oder micro kubernetes). Für diesen Installations Schritt werden wir ein "snap" command nutzen.
+
+> sudo snap install microk8s --classic --channel=1.21
+Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches man herunterladen kann. zb. 1.20/stable ; 1.20/candidate ; 1.20/beta ; usw.
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
