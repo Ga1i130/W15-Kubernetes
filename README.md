@@ -51,6 +51,7 @@ Version: V.1.0
 2. Anschliessend beginnt der Installations Prozess des Kubernetes Cluster bzw. von microk8s(oder micro kubernetes). Für diesen Installations Schritt werden wir ein "snap" command nutzen.
 
 > sudo snap install microk8s --classic --channel=1.21
+
 Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches man herunterladen kann. zb. 1.20/stable ; 1.20/candidate ; 1.20/beta ; usw.
 
 <a name="anker-zur-qualitaet"></a>
