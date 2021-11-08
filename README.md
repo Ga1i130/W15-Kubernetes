@@ -54,6 +54,18 @@ Version: V.1.0
 
 Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches man herunterladen kann. zb. 1.20/stable ; 1.20/candidate ; 1.20/beta ; usw.
 
+3. Die Installation von microk8s benötigt Admin berechtigungen für die entsprechendenen User. Für diesen Schritt benutzen wir usermod (wird ähnlich angewendet wie chmod) und chown. 
+
+- Fügt den momentane User zur Gruppe "microk8s"
+> sudo usermod -a -G microk8s $USER
+
+- Ordner berechitigung ändern
+> sudo chown -f -R $USER ~/.kube
+
+- Neu einloggen in de Session
+> su - $USER
+
+
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
 
