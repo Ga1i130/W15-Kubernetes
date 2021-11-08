@@ -65,7 +65,19 @@ Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches m
 - Neu einloggen in de Session
 > su - $USER
 
-4. 
+4. Anschliessend muss man nur den Service starten.
+
+> sudo microk8s.start
+
+Bild !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten und benutzen wie zb nginx. Der nächste schritt ist die Verlinkung der Leafnodes mit der Masternode. 
+
+5. Nun müssen wir die Token generieren um dibe Nodes zu verbinden.
+
+Bild !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+6. Füge den Token, welchen due 
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
