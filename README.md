@@ -76,13 +76,15 @@ Falls man dies nicht macht, dann endet mann so(Bild aus):
 92.168.0.92
 Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten und benutzen wie zb nginx. Der nächste schritt ist die Verlinkung der Leafnodes mit der Masternode. 
 
-5. Nun müssen wir die Token generieren um dibe Nodes zu verbinden.
+5. Nun müssen wir die Token generieren um die Nodes zu verbinden.
 
 > sudo microk8s.add-node
 
 <img width="570" alt="image" src="https://user-images.githubusercontent.com/63262820/140828626-78a010d1-9305-464c-aaae-c1b0e97a18d9.png">
 
 6. Füge den Token, welchen du auf der Master note erstellt hast bei der Leaf node ein um diese zu verbinden. 
+
+> microk8s.join <master_ip>:<port>/<token>
 
 <img width="570" alt="image" src="https://user-images.githubusercontent.com/63262820/140828575-7ca92c00-b125-4a13-9949-0b02095e62ea.png">
 
