@@ -89,6 +89,9 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 
 <img width="570" alt="image" src="https://user-images.githubusercontent.com/63262820/140828575-7ca92c00-b125-4a13-9949-0b02095e62ea.png">
 
+7. Nach abschluss kann man auf dem Master überprüfen, dass die Node eingebunden wurde. 
+
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/63262820/140829776-c323ef1e-4e2c-472a-82a9-fc351ca2d55f.png">
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
@@ -101,7 +104,8 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 Als gegenmasnahme habe ich geprüft ob ich im Verlauf der Intallation irgendwo die IP gesetzt habe. Zusätzlich habe ich die berechtigungen geprüft.
 
 2. Kurz vor der Abgabe hatten wir einen Teilweisen Stromausfall zuhause bei welchem aufgrund der kurzen leasing dauer der IP. Sich diese für den Master und Leaf gewechselt hatten. So kam ich auch auf die Idee, dass die IP fest eingetragen wurde.
-3. 
+
+3. Um diese fehler zu eliminieren, habe ich am Abend vor der Abgabe, alles gelöscht und neu erstellt. So wurden alle fehler aus dem Stromausfall und den Testläufen gelöscht und es hat auch viel besser funktioniert wie ich gedacht hätte.
 
 <a name="anker-zur-quellen"></a>
 ## 7. Quellen
