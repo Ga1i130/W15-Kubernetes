@@ -8,17 +8,17 @@
  - [Lizenz](lizenz)
 
 # W15-Kubernetes
-Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben.
+Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben. 
 
 <a name="anker-zur-autoren"></a>
 ## 1. Autoren, Versionierung des Dokumentes
 Autor: Janis Müller
 
-Version: V.1.0 (Versioning habe ich nicht gemacht da dies von GitHub erledigt wird)
+Version: V.1.0 (Versioning habe ich nicht gemacht, da dies von GitHub erledigt wird)
 
 <a name="anker-zur-einfuerung"></a>
 ## 2. Einfuehrung 
-   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Die einfachere Version von Kubernetes ist microk8s ("microkeight"). Mit Mmcrok8s kann man für Raspberry Pis ein Cluster-System aufbauen.
+   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Die einfachere Version von Kubernetes ist microk8s ("microkeight"). Mit Microk8s kann man für Raspberry Pis ein Cluster-System aufbauen.
    - Für dieses Projekt habe ich ca. 12 Lektionen zur Verfügung. In diesen Lektionen, muss ich das System aufsetzten, das gearbeitete Dokumentieren und zum schluss noch die Fehler finden welche ich bei der Installation gemacht habe. 
    - Für mich könnte ich Stolpersteine bei Konfiguration der Raspberrypis haben, denn da wir einen teil in der Schule machen können und den Rest Zuhause muss ich die Konfiguration entweder an einem Morgen durcharbeiten oder das System fest an einem Ort installieren.
 
@@ -31,8 +31,8 @@ Version: V.1.0 (Versioning habe ich nicht gemacht da dies von GitHub erledigt wi
 ![Ohne Titel](https://user-images.githubusercontent.com/63262820/138827765-5e85efd1-cb2e-4e70-8007-9993d56b79f7.png)
 
   - Die Hardware wird in Zwei Kategorienen eingeteilt den sogenannten nodes.
-	- Masternode: Die Masternode ist das Rückgrad des Systemes. Auf dieser node wird ein Ubuntu LST Server image laufen um die vorüge eines Server image ohne GUI zu nutzen. 
-	- Leafnode: Diese Nodes werden an die Masternode angehängt und werden mit einem Ubuntu Desktop image bestückt.
+	- Masternode: Die Masternode ist das Rückgrad des Systemes. Auf dieser node wird ein Ubuntu 20.4 Server image laufen um die vorüge eines Server image ohne GUI zu nutzen. 
+	- Leafnode: Diese Nodes werden an die Masternode angehängt und wird ebenfalls mit einem Ubuntu server image bestückt.
   - Diese images werden entweder mit dem Balena Etcher oder dem Raspberri Pi imager auf die Micro SD Karten geladen.
 
 > "!Wichtig! Die OS müssen 64 Bit Architektur sein sonst funktioniert microk8s nicht. Denn es wurde für 64-Bit geschrieben."
@@ -78,12 +78,13 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 
 5. Nun müssen wir die Token generieren um dibe Nodes zu verbinden.
 
-> sudo microk8s add.node
+> sudo microk8s.add-node
 
-Bild !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/63262820/140828626-78a010d1-9305-464c-aaae-c1b0e97a18d9.png">
 
 6. Füge den Token, welchen du auf der Master note erstellt hast bei der Leaf node ein um diese zu verbinden. 
 
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/63262820/140828575-7ca92c00-b125-4a13-9949-0b02095e62ea.png">
 
 
 <a name="anker-zur-qualitaet"></a>
