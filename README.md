@@ -73,7 +73,12 @@ Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches m
 <a name="anker-zur-error"></a>
 ## 6. Error-Handling 
 
-1. Erster error welcher auftauchte war, dass der Host 2 konnte keine verbindung zum Host 1 aufnehmen konnte. Als fehler Meldung bekahm ich  Connection failed. (500)
+1. Erster error welcher auftauchte war, dass der Host 2 (Leaf )konnte keine verbindung zum Host 1(Master) aufnehmen konnte. Als Fehlermeldung bekahm ich  "Connection failed. (500)".
+
+Als gegenmasnahme habe ich geprüft ob ich im Verlauf der Intallation irgendwo die IP gesetzt habe. Zusätzlich habe ich die berechtigungen geprüft.
+
+2. Kurz vor der Abgabe hatten wir einen Teilweisen Stromausfall zuhause bei welchem aufgrund der kurzen leasing dauer der IP. Sich diese für den Master und Leaf gewechselt hatten. So kam ich auch auf die Idee, dass die IP fest eingetragen wurde.
+3. 
 
 <a name="anker-zur-quellen"></a>
 ## 7. Quellen
