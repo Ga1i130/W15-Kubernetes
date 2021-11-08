@@ -95,12 +95,8 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
 
-	
-
-https://user-images.githubusercontent.com/63262820/140834749-e4a798d3-d8a0-4dee-bf52-f46574b2660b.mov
-
-
-	
+https://user-images.githubusercontent.com/63262820/140835284-4f6c321b-e5f1-40df-8810-5136d5f19967.mov
+		
 <a name="anker-zur-error"></a>
 ## 6. Error-Handling 
 
