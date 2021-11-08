@@ -7,6 +7,9 @@
  - [Quellen](quellen)
  - [Lizenz](lizenz)
 
+
+microk8s join 192.168.0.92:25000/1e26b4aac869a1abbe56e2dd388ebb2a/b8f5268724a8
+
 # W15-Kubernetes
 Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben. 
 
