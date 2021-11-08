@@ -7,9 +7,6 @@
  - [Quellen](quellen)
  - [Lizenz](lizenz)
 
-
-microk8s join 192.168.0.92:25000/1e26b4aac869a1abbe56e2dd388ebb2a/b8f5268724a8
-
 # W15-Kubernetes
 Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8s aufsetzten und eine Anleitung für nachfolgende Generationen an Schüler:innen zuschreiben. 
 
@@ -75,8 +72,8 @@ Falls man dies nicht macht, dann endet mann so(Bild aus):
 
 > sudo microk8s.start
 
-Bild !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+![image](https://user-images.githubusercontent.com/63262820/140830352-a62a4cdf-75a0-4a4a-a224-109f1ddbfa38.png)
+92.168.0.92
 Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten und benutzen wie zb nginx. Der nächste schritt ist die Verlinkung der Leafnodes mit der Masternode. 
 
 5. Nun müssen wir die Token generieren um dibe Nodes zu verbinden.
