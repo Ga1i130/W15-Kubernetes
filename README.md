@@ -14,11 +14,11 @@ Mit diesem Projekt an der TBZ, versuche ich einen Kubernetes Cluster mit microk8
 ## 1. Autoren, Versionierung des Dokumentes
 Autor: Janis Müller
 
-Version: V.1.0
+Version: V.1.0 (Versioning habe ich nicht gemacht da dies von GitHub erledigt wird)
 
 <a name="anker-zur-einfuerung"></a>
 ## 2. Einfuehrung 
-   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Zusammen mit dem Programm microk8s, kann man für Raspberry Pis ein Cluster-System aufbauen.
+   - Kubernetes ist eine Anwendung zum bereitstellen, skalieren und verwalten von Containerumgebungen. Die einfachere Version von Kubernetes ist microk8s ("microkeight"). Mit Mmcrok8s kann man für Raspberry Pis ein Cluster-System aufbauen.
    - Für dieses Projekt habe ich ca. 12 Lektionen zur Verfügung. In diesen Lektionen, muss ich das System aufsetzten, das gearbeitete Dokumentieren und zum schluss noch die Fehler finden welche ich bei der Installation gemacht habe. 
    - Für mich könnte ich Stolpersteine bei Konfiguration der Raspberrypis haben, denn da wir einen teil in der Schule machen können und den Rest Zuhause muss ich die Konfiguration entweder an einem Morgen durcharbeiten oder das System fest an einem Ort installieren.
 
@@ -75,9 +75,13 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 
 5. Nun müssen wir die Token generieren um dibe Nodes zu verbinden.
 
+> sudo microk8s add.node
+
 Bild !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-6. Füge den Token, welchen due 
+6. Füge den Token, welchen du auf der Master note erstellt hast bei der Leaf node ein um diese zu verbinden. 
+
+
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
