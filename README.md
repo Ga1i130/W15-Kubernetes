@@ -37,7 +37,7 @@ Version: V.1.0
 
 > "!Wichtig! Die OS müssen 64 Bit Architektur sein sonst funktioniert microk8s nicht. Denn es wurde für 64-Bit geschrieben."
 
-![IMG_5963](https://user-images.githubusercontent.com/63262820/140657271-eecc7525-d8aa-4d7f-af51-0df5cc6f019d.JPG)
+<img src="https://user-images.githubusercontent.com/63262820/140657271-eecc7525-d8aa-4d7f-af51-0df5cc6f019d.JPG" width="500">
 
 <a name="anker-zur-installation"></a>
 ## 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
