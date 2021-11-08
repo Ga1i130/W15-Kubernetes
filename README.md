@@ -65,12 +65,15 @@ Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches m
 - Neu einloggen in de Session
 > su - $USER
 
+4. 
 
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
 
 <a name="anker-zur-error"></a>
 ## 6. Error-Handling 
+
+1. Erster error welcher auftauchte war, dass der Host 2 konnte keine verbindung zum Host 1 aufnehmen konnte. Als fehler Meldung bekahm ich  Connection failed. (500)
 
 <a name="anker-zur-quellen"></a>
 ## 7. Quellen
