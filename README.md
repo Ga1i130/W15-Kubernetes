@@ -73,7 +73,7 @@ Falls man dies nicht macht, dann endet mann so(Bild aus):
 > sudo microk8s.start
 
 ![image](https://user-images.githubusercontent.com/63262820/140830352-a62a4cdf-75a0-4a4a-a224-109f1ddbfa38.png)
-92.168.0.92
+
 Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten und benutzen wie zb nginx. Der nächste schritt ist die Verlinkung der Leafnodes mit der Masternode. 
 
 5. Nun müssen wir die Token generieren um die Nodes zu verbinden.
@@ -95,6 +95,12 @@ Nun ist der micro kuberntes Service gestarted und man kann schon Pods starten un
 <a name="anker-zur-qualitaet"></a>
 ## 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos und entsprechenden Outputs)
 
+	
+
+https://user-images.githubusercontent.com/63262820/140834749-e4a798d3-d8a0-4dee-bf52-f46574b2660b.mov
+
+
+	
 <a name="anker-zur-error"></a>
 ## 6. Error-Handling 
 
