@@ -46,13 +46,14 @@ Version: V.1.0 (Versioning habe ich nicht gemacht da dies von GitHub erledigt wi
    - Hilfestellung (Tipps, Quellen...
 
 1. Zu begin der installation, sollt man die apt Datenbanken der RPI's aktualisisieren. Das braucht einen guten Moment Zeit.
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/63262820/139582013-2a50ab1e-a6ba-4d40-a1f1-85bb7d22ff44.png">
 
 2. Anschliessend beginnt der Installations Prozess des Kubernetes Cluster bzw. von microk8s(oder micro kubernetes). Für diesen Installations Schritt werden wir ein "snap" command nutzen.
 
 > sudo snap install microk8s --classic --channel=1.21
 
 Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches man herunterladen kann. zb. 1.20/stable ; 1.20/candidate ; 1.20/beta ; usw.
+
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/63262820/140815252-76206b3d-41f8-4d1d-ade1-0a09fc20b5fb.png">
 
 3. Die Installation von microk8s benötigt Admin berechtigungen für die entsprechendenen User. Für diesen Schritt benutzen wir usermod (wird ähnlich angewendet wie chmod) und chown. 
 
@@ -64,6 +65,8 @@ Amd. Autor: channels sind die verschiedenen Versionen eines Programmes welches m
 
 - Neu einloggen in de Session
 > su - $USER
+
+Falls man dies nicht macht, dann endet mann so(Bild aus): 
 
 4. Anschliessend muss man nur den Service starten.
 
